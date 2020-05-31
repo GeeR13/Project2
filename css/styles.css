@@ -1,0 +1,87 @@
+/* Font Styles ------------------------- */
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Link Styles ------------------------- */
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: lightsalmon;
+}
+
+
+/* Base Styles ------------------------- */
+
+.main-header {
+    background-color: rgba(231, 231, 235, 0.297);
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    padding-bottom: .6rem;
+}
+
+.main-nav {
+    width: 100%;
+}
+
+.nav {
+    text-align: center;
+    padding: 20px;
+}
+
+li {
+    display: block;
+    list-style-type: none;
+    font-size: 1.2em;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 16px 16px;
+}
+
+header {
+    text-align: center;
+    padding-bottom: 65px;
+}
+
+img {
+    width: 100%;
+    padding-top: 50px;
+    text-align: center;
+    margin: auto;
+}
+
+p {
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+}
+
+.calculator {
+    margin-bottom: 100px;
+}
+
+.contact-container {
+    text-align: center;
+    padding-top: 70px;
+    margin: 10px;
+    background-color: rgba(231, 231, 235, 0.297);
+}
+
+.name {
+    border-top: solid black 1px;
+    background-color: rgba(231, 231, 235, 0.297);
+    display: inline-block;
+    margin-right: 10px;
+}

@@ -19,8 +19,17 @@ a:hover {
 
 /* Base Styles ------------------------- */
 
+#portfolio {
+    padding-top: 50px;
+    text-transform: uppercase;
+}
+
 .main-header {
     background-color: rgba(231, 231, 235, 0.297);
+    padding-bottom: 40px;
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 65px;
 }
 
 h1 {
@@ -50,11 +59,6 @@ li {
     padding: 16px 16px;
 }
 
-header {
-    text-align: center;
-    padding-bottom: 65px;
-}
-
 img {
     width: 100%;
     padding-top: 50px;
@@ -72,16 +76,24 @@ p {
     margin-bottom: 100px;
 }
 
-.contact-container {
+footer {
     text-align: center;
     padding-top: 70px;
-    margin: 10px;
+    margin: auto;
     background-color: rgba(231, 231, 235, 0.297);
 }
 
-.name {
+.bottomnav {
     border-top: solid black 1px;
+}
+
+.name {
+    float: left;
     background-color: rgba(231, 231, 235, 0.297);
     display: inline-block;
-    margin-right: 10px;
+}
+
+.backtop {
+    float: right;
+    text-transform: uppercase;
 }

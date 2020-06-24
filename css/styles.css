@@ -1,11 +1,16 @@
-/* Font Styles ------------------------- */
+/*-----------------------------------------
+Global Style 
+------------------------------------------*/
 
 * {
     font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
 }
 
 
-/* Link Styles ------------------------- */
+/*-----------------------------------------
+Link Styles 
+------------------------------------------*/
 
 a:link {
     text-decoration: none;
@@ -17,7 +22,9 @@ a:hover {
 }
 
 
-/* Base Styles ------------------------- */
+/*--------------------------------- 
+Base Styles
+-----------------------------------*/
 
 #portfolio {
     padding-top: 50px;
@@ -26,10 +33,9 @@ a:hover {
 
 .main-header {
     background-color: rgba(231, 231, 235, 0.297);
-    padding-bottom: 40px;
     padding-top: 10px;
+    padding-bottom: 100px;
     text-align: center;
-    padding-bottom: 65px;
 }
 
 h1 {
@@ -48,6 +54,8 @@ h3 {
 .nav {
     text-align: center;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 li {
@@ -96,4 +104,31 @@ footer {
 .backtop {
     float: right;
     text-transform: uppercase;
+}
+
+
+/*-----------------------------------------
+Media Queries  
+------------------------------------------*/
+
+@media (min-width: 768px) {
+    .main-header {
+        padding-bottom: 125px;
+    }
+    .main-nav,
+    .nav {
+        font-size: 20px;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .mainpic {
+        float: right;
+        width: 300px;
+        padding: 10px;
+    }
+    .projects {
+        float: left;
+        width: 45%;
+        padding: 5px;
+    }
 }

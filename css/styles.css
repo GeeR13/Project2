@@ -7,6 +7,12 @@ Global Style
     box-sizing: border-box;
 }
 
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 
 /*-----------------------------------------
 Link Styles 

@@ -90,7 +90,7 @@ p {
     margin-bottom: 100px;
 }
 
-footer {
+#main-footer {
     text-align: center;
     padding-top: 70px;
     margin: auto;
@@ -112,10 +112,17 @@ footer {
     text-transform: uppercase;
 }
 
+#main-footer .nav {
+    display: none;
+}
+
 
 /*-----------------------------------------
 Media Queries  
 ------------------------------------------*/
+
+
+/* Tablet */
 
 @media (min-width: 768px) {
     .main-header {
@@ -136,5 +143,12 @@ Media Queries
         float: left;
         width: 45%;
         padding: 5px;
+    }
+    #main-footer .backtop {
+        display: none;
+    }
+    #main-footer .nav {
+        display: flex;
+        font-size: 0.8em;
     }
 }

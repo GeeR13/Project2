@@ -1,167 +1,168 @@
-        /*-----------------------------------------
+/*-----------------------------------------
 Global Style
 ------------------------------------------*/
 
-    * {
-        font-family: 'Open Sans', sans-serif;
-        box-sizing: border-box;
-    }
+* {
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+}
 
-    .clearfix {
-        content: "";
-        display: table;
-        clear: both;
-    }
-    /*-----------------------------------------
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*-----------------------------------------
 Link Styles
 ------------------------------------------*/
 
-    a:link {
-        text-decoration: none;
-    }
+a:link {
+  text-decoration: none;
+}
 
-    a:hover {
-        text-decoration: underline;
-        color: lightsalmon;
-    }
-    /*---------------------------------
+a:hover {
+  text-decoration: underline;
+  color: lightsalmon;
+}
+/*---------------------------------
 Base Styles
 -----------------------------------*/
 
-    #portfolio {
-        padding-top: 50px;
-        text-transform: uppercase;
-    }
+#portfolio {
+  padding-top: 50px;
+  text-transform: uppercase;
+}
 
-    .main-header {
-        background-color: rgba(231, 231, 235, 0.297);
-        padding-top: 10px;
-        padding-bottom: 100px;
-        text-align: center;
-    }
+.main-header {
+  background-color: rgba(231, 231, 235, 0.297);
+  padding-top: 10px;
+  padding-bottom: 100px;
+  text-align: center;
+}
 
-    h1 {
-        text-align: center;
-    }
+h1 {
+  text-align: center;
+}
 
-    h3 {
-        text-align: center;
-        padding-bottom: .6rem;
-    }
+h3 {
+  text-align: center;
+  padding-bottom: .6rem;
+}
 
-    .main-nav {
-        width: 100%;
-    }
+.main-nav {
+  width: 100%;
+}
 
-    .nav {
-        text-align: center;
-        padding: 20px;
-        display: flex;
-        flex-direction: column;
-    }
+.nav {
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
 
-    li {
-        display: block;
-        list-style-type: none;
-        font-size: 1.2em;
-        font-weight: 700;
-        text-transform: uppercase;
-        padding: 16px 16px;
-    }
+li {
+  display: block;
+  list-style-type: none;
+  font-size: 1.2em;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 16px 16px;
+}
 
-    img {
-        width: 100%;
-        padding-top: 50px;
-        text-align: center;
-        margin: auto;
-    }
+img {
+  width: 100%;
+  padding-top: 50px;
+  text-align: center;
+  margin: auto;
+}
 
-    p {
-        padding: 15px;
-        margin: 10px;
-        text-align: center;
-    }
+p {
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+}
 
-    .calculator {
-        margin-bottom: 100px;
-    }
+.calculator {
+  margin-bottom: 100px;
+}
 
-    #main-footer {
-        text-align: center;
-        padding-top: 70px;
-        margin: auto;
-        background-color: rgba(231, 231, 235, 0.297);
-    }
+#main-footer {
+  text-align: center;
+  padding-top: 70px;
+  margin: auto;
+  background-color: rgba(231, 231, 235, 0.297);
+}
 
-    .bottomnav {
-        border-top: solid black 1px;
-    }
+.bottomnav {
+  border-top: solid black 1px;
+}
 
-    .name {
-        float: left;
-        display: inline-block;
-    }
+.name {
+  float: left;
+  display: inline-block;
+}
 
-    .backtop {
-        float: right;
-        text-transform: uppercase;
-    }
+.backtop {
+  float: right;
+  text-transform: uppercase;
+}
 
-    #main-footer .nav {
-        display: none;
-    }
-    /*-----------------------------------------
+#main-footer .nav {
+  display: none;
+}
+/*-----------------------------------------
 Media Queries
 ------------------------------------------*/
-    /* Tablet */
+/* Tablet */
 
-    @media (min-width: 768px) {
-        .main-header {
-            padding-bottom: 125px;
-        }
-        .main-nav,
-        .nav {
-            font-size: 20px;
-            flex-direction: row;
-            justify-content: center;
-        }
-        .mainpic {
-            float: right;
-            width: 300px;
-            padding: 10px;
-        }
-        .projects {
-            float: left;
-            width: 50%;
-            padding: 8px;
-        }
-        #main-footer .backtop {
-            display: none;
-        }
-        #main-footer .nav {
-            display: flex;
-            font-size: 0.7em;
-            justify-content: flex-end;
-        }
-        .name {
-            margin: 45px;
-        }
-    }
-    /*Desktop */
+@media (min-width: 768px) {
+  .main-header {
+      padding-bottom: 125px;
+  }
+  .main-nav,
+  .nav {
+      font-size: 20px;
+      flex-direction: row;
+      justify-content: center;
+  }
+  .mainpic {
+      float: right;
+      width: 300px;
+      padding: 10px;
+  }
+  .projects {
+      float: left;
+      width: 50%;
+      padding: 8px;
+  }
+  #main-footer .backtop {
+      display: none;
+  }
+  #main-footer .nav {
+      display: flex;
+      font-size: 0.7em;
+      justify-content: flex-end;
+  }
+  .name {
+      margin: 45px;
+  }
+}
+/*Desktop */
 
-    @media (min-width: 1024px) {
-        h1 {
-            float: left;
-            margin: 40px;
-            padding-right: 340px;
-        }
-        .main-nav li {
-            float: right;
-            font-size: 20px;
-            padding: 8px;
-        }
-        .projects {
-            float: left;
-            width: 33.33%;
-            padding: 10px;
-        }
+@media (min-width: 1024px) {
+  h1 {
+      float: left;
+      margin: 40px;
+      padding-right: 340px;
+  }
+  .main-nav li {
+      float: right;
+      font-size: 20px;
+      padding: 8px;
+  }
+  .projects {
+      float: left;
+      width: 33.33%;
+      padding: 10px;
+  }
+}

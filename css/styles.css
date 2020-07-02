@@ -1,4 +1,4 @@
-/*-----------------------------------------
+    /*-----------------------------------------
 Global Style 
 ------------------------------------------*/
 
@@ -155,3 +155,21 @@ Media Queries
         margin: 45px;
     }
 }
+
+
+/*Desktop */
+
+@media (min-width: 1024px) {
+    h1 {
+        float: left;
+        margin: 40px;
+    }
+    .main-nav li {
+        float: right;
+        margin-left: 10px;
+    }
+    .projects {
+        float: left;
+        width: 33.33%;
+    }
+    */
